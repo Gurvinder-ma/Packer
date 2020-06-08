@@ -1,0 +1,27 @@
+{
+  
+  "variables": {
+    "gcp_credentials": "{{env 'CREDENTIALS_KEY'}}",
+  },  
+  
+  "builders": [
+      {
+        "type": "googlecompute",
+        "account_file": "broadcom-ess-poc-820583dd0f6c.json",
+        "project_id": "broadcom-ess-poc",
+        "source_image": "centos-6-v20200521",
+        "ssh_username": "packer",
+        "disk_size": "50",
+        "zone": "us-west1-a",
+        "network": "projects/broadcom-ess-poc/global/networks/saas-sed-ess-hp-net-1",
+        "subnetwork": "projects/broadcom-ess-poc/regions/us-west1/subnetworks/saas-sed-ess-hp-uw1-subnet-1"
+      }
+  ],
+    
+  "provisioners": [
+      {
+        "type": "shell",
+        "script": "apache.sh"
+      }
+    ]
+  }
