@@ -7,7 +7,7 @@
   "builders": [
       {
         "type": "googlecompute",
-        "account_file": "broadcom-ess-poc-820583dd0f6c.json",
+        "account_file": "{{user 'gcp_credentials'}}",
         "project_id": "broadcom-ess-poc",
         "source_image": "centos-6-v20200521",
         "ssh_username": "packer",
