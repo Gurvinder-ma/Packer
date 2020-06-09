@@ -1,13 +1,7 @@
 {
-  
-  "variables": {
-    "gcp_credentials": "{{env 'CREDENTIALS_KEY'}}",
-  },  
-  
   "builders": [
       {
         "type": "googlecompute",
-        "account_file": "{{user 'gcp_credentials'}}",
         "project_id": "broadcom-ess-poc",
         "source_image": "centos-6-v20200521",
         "ssh_username": "packer",
