@@ -18,7 +18,7 @@
         "script": "apache.sh"
       },
     {
-      "type": "shell-local"
+      "type": "shell-local",
       "command": "python test.py"
     }
     ]
