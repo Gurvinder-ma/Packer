@@ -6,6 +6,11 @@
         "source_image": "centos-6-v20200521",
         "ssh_username": "packer",
         "disk_size": "50",
+        "labels": {
+          "linux-image": "apache-centos",
+        },
+        "image_family": "packer-image",
+        "image_description": "This Image is created by Packer",
         "zone": "us-west1-a",
         "network": "projects/broadcom-ess-poc/global/networks/saas-sed-ess-hp-net-1",
         "subnetwork": "projects/broadcom-ess-poc/regions/us-west1/subnetworks/saas-sed-ess-hp-uw1-subnet-1"
