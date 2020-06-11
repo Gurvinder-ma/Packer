@@ -3,7 +3,7 @@
       {
         "type": "googlecompute",
         "project_id": "broadcom-ess-poc",
-        "source_image": "centos-6-v20200521",
+        "source_image_family": "packer-image",
         "ssh_username": "packer",
         "disk_size": "50",
         "labels": {
