@@ -18,8 +18,8 @@
         "script": "apache.sh"
       },
     {
-      "type": "shell-local",
-      "command": "python test.py"
+      "type": "shell",
+      "script": "test.sh"
     }
     ]
   }
