@@ -16,10 +16,6 @@
       {
         "type": "shell",
         "script": "apache.sh"
-      },
-    {
-      "type": "shell",
-      "script": "test.sh"
-    }
+      }
     ]
   }
