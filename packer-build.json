@@ -7,8 +7,8 @@
         "ssh_username": "packer",
         "disk_size": "50",
         "labels": {
-          "linux-image": "apache-centos",
-        },
+          "linux-image": "apache-centos"
+         },
         "image_family": "packer-image",
         "image_description": "This Image is created by Packer",
         "zone": "us-west1-a",
