@@ -6,7 +6,7 @@
         "source_image_family": "packer-image",
         "ssh_username": "packer",
         "disk_size": "50",
-        "labels": {
+        "image_labels": {
           "linux-image": "apache-centos"
          },
         "image_family": "packer-image",
