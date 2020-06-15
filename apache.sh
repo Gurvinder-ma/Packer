@@ -11,4 +11,4 @@ sudo chmod 777 /var/www/html/index.html
 echo "<h1>This app is deployed by packer </h1>" > /var/www/html/index.html
 
 sudo yum update
-sudo yum install git
+sudo yum install git -y
